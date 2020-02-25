@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5147452735429474383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5147452735429474381}
+  - component: {fileID: 5147452735429474380}
+  - component: {fileID: 5147452735429474354}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: AudioManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5147452735429474381
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5147452735429474383}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.9086919, y: 1.3516033, z: 25.780048}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5147452735429474380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5147452735429474383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4be1f7bdb348e16499d727b98f3a80fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audiolist:
+  - name: Jump
+    clip: {fileID: 8300000, guid: eb16b05964a6cf24e9817770ed20b205, type: 3}
+    volume: 1
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Start
+    clip: {fileID: 8300000, guid: 288ea8bbea509cf46afe17798f48fc89, type: 3}
+    volume: 1
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Win
+    clip: {fileID: 8300000, guid: 9e46a7caeabeeb543bd272eaef678a09, type: 3}
+    volume: 1
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: over
+    clip: {fileID: 8300000, guid: 4d753bcf74192074ca5dac8b7c51b384, type: 3}
+    volume: 1
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Bonus
+    clip: {fileID: 8300000, guid: 3e2c0479c0c20904b90e0f0d4495976c, type: 3}
+    volume: 1
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Background
+    clip: {fileID: 8300000, guid: ecc82cd4795ab6b489b00263ef5ad2cf, type: 3}
+    volume: 0.7
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+--- !u!81 &5147452735429474354
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5147452735429474383}
+  m_Enabled: 1

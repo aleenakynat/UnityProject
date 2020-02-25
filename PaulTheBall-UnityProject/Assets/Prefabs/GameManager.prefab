@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9135257856777078334
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9135257856777078320}
+  - component: {fileID: 9135257856777078321}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: GameManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9135257856777078320
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9135257856777078334}
+  m_LocalRotation: {x: 0.12186928, y: 0, z: 0, w: 0.9925462}
+  m_LocalPosition: {x: 0, y: 2.7, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 14, y: 0, z: 0}
+--- !u!114 &9135257856777078321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9135257856777078334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c5e252b19125fd438862490459f9deb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameText: {fileID: 5277396821941818860, guid: 4436029d10cde1a498865159db804146,
+    type: 3}
+  playButton: {fileID: 8532835101332432046, guid: 5e1658feed688594f8f64eb03ed79680,
+    type: 3}
+  playerPrefab: {fileID: 46759317608003251, guid: 0532b88b8775fa2418a2059fe3c8a2ef,
+    type: 3}
+  camMovmnt: {fileID: -6869858354383023541, guid: ce97fefc15852ef44813e355a418f855,
+    type: 3}
+  plheight: 0
+  gameScore: {fileID: 6751509049081203678, guid: 38f71c79916d27b439bd6dcf14f7f7c2,
+    type: 3}
+  canv: {fileID: 5236440848853663203, guid: 311a9dbaebd157b4bb5fdc94c6d48452, type: 3}
+  score: 0
+  completeLevelUI: {fileID: 6935373200984909349, guid: a7ba567b40d5f774792953ac528665ea,
+    type: 3}

@@ -1,0 +1,1 @@
+This game setup (v1.0) had a missing credits prefab so it may require a force quit or a quit before the end of level 5.
